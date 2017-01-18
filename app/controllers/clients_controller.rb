@@ -1,5 +1,5 @@
 class ClientsController < ApplicationController
 	def index 
-		@clients = ["Jacob Walters", "Thomas Witkowski","Janet Salazar"]
+		@clients = Client.all
 	end
 end

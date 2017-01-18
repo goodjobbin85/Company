@@ -2,6 +2,10 @@
 
 <ul>
 <% @clients.each do |client| %>
-	<li><%= client %></li>
+	<li>Name: <%= client.name %></li>
+	<li>Address: <%= client.address %></li>
+	<li>Phone number: <%= client.phone %></li>
+	<li>Additional comments: <%= client.comments %></li>
+	<br>
 <% end %>
 </ul>
